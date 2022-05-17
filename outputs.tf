@@ -9,5 +9,6 @@ output "key_vault_uri" {
 }
 
 output "name" {
+  description = "Value of the Key Vault name"
   value = azurerm_key_vault.this.name
 }
