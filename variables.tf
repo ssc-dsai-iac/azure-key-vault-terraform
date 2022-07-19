@@ -60,8 +60,8 @@ variable "sku_name" {
 
 variable "soft_delete_retention_days" {
   description = "The number of days that items should be retained for once soft-deleted. This value can be between 7 and 90"
-  type = number
-  default = 7
+  type        = number
+  default     = 7
 }
 
 variable "tags" {
